@@ -1,5 +1,11 @@
 # Visão Geral da Linguagem Java
 
+<!--toc:start-->
+
+- [Visão Geral da Linguagem Java](#visão-geral-da-linguagem-java)
+  - [Ambiente Java](#ambiente-java) - [Java Development Kit - JDK (Kit de Desenvolvimento Java)](#java-development-kit-jdk-kit-de-desenvolvimento-java) - [Interpretador e Compilador](#interpretador-e-compilador) - [Java Runtime Environment - JRE](#java-runtime-environment-jre) - [Java Virtual Machine - JVM](#java-virtual-machine-jvm) - [Meu primeiro programa Java](#meu-primeiro-programa-java) - [Exemplo prático](#exemplo-prático)
+  <!--toc:end-->
+
 ## Ambiente Java
 
 Java é uma linguagem de programação e plataforma computacional lançada pela primeira vez pela Sun Microsystems em 1995. Existem muitas aplicações e sites que não funcionam, a menos que tenha o Java instalado no computador. O Java é rápido, seguro e confiável. É utilizada de notebooks a datacenters, consoles de jogos a supercomputadores científicos e telefones celulares a Internet. Além disso, a linguagem de programação que tem sua própria estrutura, regras de sintaxe e paradigma de programação. Deriva da linguagem C, portanto suas regras de sintaxe assemelham-se às regras do C (PUGA e RISSETI, 2016).
@@ -8,15 +14,15 @@ Uma pergunta muito comum entre alunos e iniciantes em programação é "O que é
 
 ### Java Development Kit - JDK (Kit de Desenvolvimento Java)
 
-O JDK é um conjunto de bibliotecas de desenvolvimento de software em linguagem de programação Java. Também estão presentes neste kit o compilador, o interpretador e o JRE - _Java Runtime Environment_ (PUGA e RISSETI, 2016).
+O JDK é um conjunto de bibliotecas de desenvolvimento de software em linguagem de programação Java. Também estão presentes neste kit o compilador, o interpretador e o JRE - Java Runtime Environment (PUGA e RISSETI, 2016).
 
 #### Interpretador e Compilador
 
-Segundo Ribeiro (2016), "_A tradução da linguagem de alto nível em linguagem de máquina pode ser feita de duas maneiras básicas: compilação ou interpretação. No processo de tradução entre a linguagem de alto nível e a linguagem de máquina, o compilador pode encontrar erros de sintaxe; então irá gerar mensagens de erros para que o programador possa corrigi-los. O programa executável somente será gerado quando não houver mais erros de compilação. A compilação é usada somente em linguagens de programação como C, C++ e FORTRAN_
+Segundo Ribeiro (2016), "A tradução da linguagem de alto nível em linguagem de máquina pode ser feita de duas maneiras básicas: compilação ou interpretação. No processo de tradução entre a linguagem de alto nível e a linguagem de máquina, o compilador pode encontrar erros de sintaxe; então irá gerar mensagens de erros para que o programador possa corrigi-los. O programa executável somente será gerado quando não houver mais erros de compilação. A compilação é usada somente em linguagens de programação como C, C++ e FORTRAN
 
-_A outra maneira é traduzir linha por linha do programa em linguagem de alto nível para linguagem de máquina, executando uma linha por vez. Neste caso usamos um interpretador. Note que o programa precisa do interpretador para executar, pois as ações ocorrem dentro do ambiente do interpretador. Se houver dados, estes são processados pela execução desta linha no ambiente do interpretador. Se não houver erros, o interpretador lê a próxima linha do programa-fonte e repete o processo até que todas as linhas sejam lidas e o programa chegue ao seu final. Linguagens como Python, Java_ _e JavaScript são interpretadas_"
+A outra maneira é traduzir linha por linha do programa em linguagem de alto nível para linguagem de máquina, executando uma linha por vez. Neste caso usamos um interpretador. Note que o programa precisa do interpretador para executar, pois as ações ocorrem dentro do ambiente do interpretador. Se houver dados, estes são processados pela execução desta linha no ambiente do interpretador. Se não houver erros, o interpretador lê a próxima linha do programa-fonte e repete o processo até que todas as linhas sejam lidas e o programa chegue ao seu final. Linguagens como Python, Java\* e JavaScript são interpretadas"
 
-*"*Java é uma linguagem compilada e interpretada. O compilador Java, chamado javac, compila o código-fonte do Java para um código de nível intermediário chamado código de bytes (bytecode). Esses códigos de bytes não são diretamente executáveis em qualquer plataforma de hardware existente; mas esses códigos são interpretados pelo interpretador Java, o qual pode operar por si mesmo ou como parte de um navegador Web.\*" (IDE, 2021)
+- "_Java é uma linguagem compilada e interpretada. O compilador Java, chamado javac, compila o código-fonte do Java para um código de nível intermediário chamado código de bytes (bytecode). Esses códigos de bytes não são diretamente executáveis em qualquer plataforma de hardware existente; mas esses códigos são interpretados pelo interpretador Java, o qual pode operar por si mesmo ou como parte de um navegador Web._" (IDE, 2021)
 
 #### Java Runtime Environment - JRE
 
