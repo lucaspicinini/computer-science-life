@@ -1,0 +1,3 @@
+# Escopo: a estrutura
+
+
